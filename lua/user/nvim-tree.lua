@@ -1,3 +1,7 @@
+-- TODO --
+-- update config to update cwd
+-- update config to update when git changes (push)
+
 require("nvim-tree").setup { -- BEGIN_DEFAULT_OPTS
 auto_reload_on_write = true,
 create_in_closed_folder = false,
@@ -12,7 +16,7 @@ open_on_tab = false,
 sort_by = "name",
 root_dirs = {},
 prefer_startup_root = false,
-update_cwd = false,
+update_cwd = true,
 reload_on_bufenter = false,
 respect_buf_cwd = false,
 view = {
